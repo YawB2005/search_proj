@@ -1,0 +1,84 @@
+.dsa-result-card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dsa-result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.rank-badge {
+  background-color: var(--text-primary);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.freq-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary-hover);
+  background-color: #ecfdf5;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.card-file-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.card-file-info .file-icon {
+  color: var(--accent);
+}
+
+.file-name {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin: 0;
+  cursor: pointer;
+}
+
+.file-name:hover {
+  text-decoration: underline;
+}
+
+.card-snippet {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  padding: 12px;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--primary);
+}
+
+.card-snippet p {
+  margin: 0;
+}
+
+/* Highlight simulation for the searched term would go here via inline styles or span classes */
