@@ -82,3 +82,29 @@
 }
 
 /* Highlight simulation for the searched term would go here via inline styles or span classes */
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .dsa-result-card {
+    padding: 16px;
+  }
+  
+  .card-header {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .card-file-info {
+    flex-wrap: wrap;
+  }
+  
+  .file-name {
+    font-size: 1rem;
+    word-break: break-all;
+  }
+  
+  .card-snippet {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}

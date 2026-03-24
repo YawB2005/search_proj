@@ -78,8 +78,8 @@ const Results = () => {
   return (
     <div className="dsa-results-container">
       <header className="results-header">
-        <div className="header-inner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', flex: 1 }}>
+        <div className="header-inner">
+          <div className="header-brand-search">
             <Link to="/" className="brand-link">
               <Terminal size={24} className="brand-icon" />
               <span className="brand-text">DSSearch</span>

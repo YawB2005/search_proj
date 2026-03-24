@@ -77,3 +77,18 @@
 .submit-btn:hover {
   background-color: var(--primary-hover);
 }
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .dsa-search-bar.size-large {
+    height: 48px;
+  }
+  
+  .submit-btn {
+    padding: 0 16px;
+  }
+  
+  .search-icon-wrapper {
+    padding: 0 12px;
+  }
+}
