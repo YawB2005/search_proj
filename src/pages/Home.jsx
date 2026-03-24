@@ -6,7 +6,7 @@ import DocumentModal from '../components/DocumentModal';
 import WelcomeModal from '../components/WelcomeModal';
 import './Home.css';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://searchproj-backend.vercel.app';
 
 const Home = () => {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Terminal } from 'lucide-react';
 import './Login.css';
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://searchproj-backend.vercel.app';
 
 const Login = () => {
   const navigate = useNavigate();
